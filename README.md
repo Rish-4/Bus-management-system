@@ -26,15 +26,25 @@ A **menu-driven console application in C** that simulates a college bus tracking
 | OS Compatibility  | Windows / Linux / macOS |
 
 ---
+## ⚙️ How to Compile & Run
 
+chcp 65001
+gcc mainportal.c AdminPortal.c StudentPortal.c GraphPortal.c MapGraph.c Security.c -o portal
+./portal
+
+---
 ## 🗂️ Folder Structure
 
 ```bash
 Bus-management-system/
-├── main.c             # Entry point and menu logic
-├── functions.c        # Core logic for route handling
-├── data.txt           # Sample route and bus info (used with file handling)
-└── README.md          # Project documentation
+├── mainportal.c        # Entry point
+├── AdminPortal.c       # Admin module
+├── StudentPortal.c     # Student interface
+├── GraphPortal.c       # Visual path logic (map)
+├── MapGraph.c          # Graph-based route data
+├── Security.c          # Login/authentication logic
+├── data.txt            # Bus and route data
+└── README.md           # Project documentation
 
 
 # Bus-management-system

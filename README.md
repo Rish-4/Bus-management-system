@@ -29,7 +29,9 @@ A **menu-driven console application in C** that simulates a college bus tracking
 ## ⚙️ How to Compile & Run
 
 chcp 65001
+
 gcc mainportal.c AdminPortal.c StudentPortal.c GraphPortal.c MapGraph.c Security.c -o portal
+
 ./portal
 
 ---

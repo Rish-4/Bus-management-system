@@ -1,8 +1,41 @@
-HEAD
-# Bus-tracking-System
- Our PBL project using DS and C language
+# 🚍 College Bus Management System
 
-Many schools and colleges struggle with inefficient bus tracking, student safety concerns, and unpredictable delays. Students and parents often have no clear visibility of where the bus is, leading to missed buses or long waiting times. Similarly, bus drivers face challenges in identifying how many students are waiting at each stop, which can cause unnecessary stops or delays. Why It’s Important: 1. Real-Time Bus Tracking for Students & Parents → They can check exactly when their bus will arrive, reducing waiting times. 2. Reduces Waiting Time: Students and parents can check real-time bus locations. 3. Route Optimization for College Administration → Ensures buses take the most efficient path, saving fuel and time. 4. Driver Assistance → Drivers can see which students are waiting at each stop, preventing unnecessary halts.
+A **menu-driven console application in C** that simulates a college bus tracking and management system. This project helps students and administrators manage and track bus routes, arrival times, and stop details using structured file handling and modular programming concepts.
+  
+> 🖥️ Language: C (Terminal Application)
+
+---
+
+## ✅ Features
+
+- 🔍 View all available bus routes with source and destination  
+- 🕒 Check estimated bus arrival times  
+- 📁 Data stored and retrieved using text file handling in C  
+- 🎯 Menu-driven interface with easy navigation  
+- 🧱 Built using structures, functions, and modular code practices  
+
+---
+
+## 🧰 Tech Stack
+
+| Component         | Technology       |
+|------------------|------------------|
+| Language          | C (GCC Compiler) |
+| Data Storage      | File Handling (`.txt`) |
+| Interface         | Console / Terminal |
+| OS Compatibility  | Windows / Linux / macOS |
+
+---
+
+## 🗂️ Folder Structure
+
+```bash
+Bus-management-system/
+├── main.c             # Entry point and menu logic
+├── functions.c        # Core logic for route handling
+├── data.txt           # Sample route and bus info (used with file handling)
+└── README.md          # Project documentation
+
 
 # Bus-management-system
 A terminal-based bus management system developed in C as part of an academic project at Graphic Era University. The system allows users to manage bus records, including adding, viewing, and deleting bus schedules and passenger details using file handling and menu-driven programming.
